@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3A423304-03E4-4CC9-B382-47ABA907B453}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Crosshair</RootNamespace>
+    <AssemblyName>Crosshair</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="imlec.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="imlec.xaml.cs">
+      <DependentUpon>imlec.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bayrak\english.jpg" />
+    <Resource Include="bayrak\turkish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="kaynak\clogo.ico" />
+    <Resource Include="kaynak\crosshair-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="crosshair\crosshair1.png" />
+    <Resource Include="crosshair\crosshair10.png" />
+    <Resource Include="crosshair\crosshair100.png" />
+    <Resource Include="crosshair\crosshair101.png" />
+    <Resource Include="crosshair\crosshair102.png" />
+    <Resource Include="crosshair\crosshair103.png" />
+    <Resource Include="crosshair\crosshair104.png" />
+    <Resource Include="crosshair\crosshair105.png" />
+    <Resource Include="crosshair\crosshair106.png" />
+    <Resource Include="crosshair\crosshair107.png" />
+    <Resource Include="crosshair\crosshair108.png" />
+    <Resource Include="crosshair\crosshair109.png" />
+    <Resource Include="crosshair\crosshair11.png" />
+    <Resource Include="crosshair\crosshair110.png" />
+    <Resource Include="crosshair\crosshair111.png" />
+    <Resource Include="crosshair\crosshair112.png" />
+    <Resource Include="crosshair\crosshair113.png" />
+    <Resource Include="crosshair\crosshair114.png" />
+    <Resource Include="crosshair\crosshair115.png" />
+    <Resource Include="crosshair\crosshair116.png" />
+    <Resource Include="crosshair\crosshair117.png" />
+    <Resource Include="crosshair\crosshair118.png" />
+    <Resource Include="crosshair\crosshair119.png" />
+    <Resource Include="crosshair\crosshair12.png" />
+    <Resource Include="crosshair\crosshair120.png" />
+    <Resource Include="crosshair\crosshair121.png" />
+    <Resource Include="crosshair\crosshair122.png" />
+    <Resource Include="crosshair\crosshair123.png" />
+    <Resource Include="crosshair\crosshair124.png" />
+    <Resource Include="crosshair\crosshair125.png" />
+    <Resource Include="crosshair\crosshair126.png" />
+    <Resource Include="crosshair\crosshair127.png" />
+    <Resource Include="crosshair\crosshair128.png" />
+    <Resource Include="crosshair\crosshair129.png" />
+    <Resource Include="crosshair\crosshair13.png" />
+    <Resource Include="crosshair\crosshair130.png" />
+    <Resource Include="crosshair\crosshair131.png" />
+    <Resource Include="crosshair\crosshair132.png" />
+    <Resource Include="crosshair\crosshair133.png" />
+    <Resource Include="crosshair\crosshair134.png" />
+    <Resource Include="crosshair\crosshair135.png" />
+    <Resource Include="crosshair\crosshair136.png" />
+    <Resource Include="crosshair\crosshair137.png" />
+    <Resource Include="crosshair\crosshair138.png" />
+    <Resource Include="crosshair\crosshair139.png" />
+    <Resource Include="crosshair\crosshair14.png" />
+    <Resource Include="crosshair\crosshair140.png" />
+    <Resource Include="crosshair\crosshair141.png" />
+    <Resource Include="crosshair\crosshair142.png" />
+    <Resource Include="crosshair\crosshair143.png" />
+    <Resource Include="crosshair\crosshair144.png" />
+    <Resource Include="crosshair\crosshair145.png" />
+    <Resource Include="crosshair\crosshair146.png" />
+    <Resource Include="crosshair\crosshair147.png" />
+    <Resource Include="crosshair\crosshair148.png" />
+    <Resource Include="crosshair\crosshair149.png" />
+    <Resource Include="crosshair\crosshair15.png" />
+    <Resource Include="crosshair\crosshair150.png" />
+    <Resource Include="crosshair\crosshair151.png" />
+    <Resource Include="crosshair\crosshair152.png" />
+    <Resource Include="crosshair\crosshair153.png" />
+    <Resource Include="crosshair\crosshair154.png" />
+    <Resource Include="crosshair\crosshair155.png" />
+    <Resource Include="crosshair\crosshair156.png" />
+    <Resource Include="crosshair\crosshair157.png" />
+    <Resource Include="crosshair\crosshair158.png" />
+    <Resource Include="crosshair\crosshair159.png" />
+    <Resource Include="crosshair\crosshair16.png" />
+    <Resource Include="crosshair\crosshair160.png" />
+    <Resource Include="crosshair\crosshair161.png" />
+    <Resource Include="crosshair\crosshair162.png" />
+    <Resource Include="crosshair\crosshair163.png" />
+    <Resource Include="crosshair\crosshair164.png" />
+    <Resource Include="crosshair\crosshair165.png" />
+    <Resource Include="crosshair\crosshair166.png" />
+    <Resource Include="crosshair\crosshair167.png" />
+    <Resource Include="crosshair\crosshair168.png" />
+    <Resource Include="crosshair\crosshair169.png" />
+    <Resource Include="crosshair\crosshair17.png" />
+    <Resource Include="crosshair\crosshair170.png" />
+    <Resource Include="crosshair\crosshair171.png" />
+    <Resource Include="crosshair\crosshair172.png" />
+    <Resource Include="crosshair\crosshair173.png" />
+    <Resource Include="crosshair\crosshair174.png" />
+    <Resource Include="crosshair\crosshair175.png" />
+    <Resource Include="crosshair\crosshair176.png" />
+    <Resource Include="crosshair\crosshair177.png" />
+    <Resource Include="crosshair\crosshair178.png" />
+    <Resource Include="crosshair\crosshair179.png" />
+    <Resource Include="crosshair\crosshair18.png" />
+    <Resource Include="crosshair\crosshair180.png" />
+    <Resource Include="crosshair\crosshair181.png" />
+    <Resource Include="crosshair\crosshair182.png" />
+    <Resource Include="crosshair\crosshair183.png" />
+    <Resource Include="crosshair\crosshair184.png" />
+    <Resource Include="crosshair\crosshair185.png" />
+    <Resource Include="crosshair\crosshair186.png" />
+    <Resource Include="crosshair\crosshair187.png" />
+    <Resource Include="crosshair\crosshair188.png" />
+    <Resource Include="crosshair\crosshair189.png" />
+    <Resource Include="crosshair\crosshair19.png" />
+    <Resource Include="crosshair\crosshair190.png" />
+    <Resource Include="crosshair\crosshair191.png" />
+    <Resource Include="crosshair\crosshair192.png" />
+    <Resource Include="crosshair\crosshair193.png" />
+    <Resource Include="crosshair\crosshair194.png" />
+    <Resource Include="crosshair\crosshair195.png" />
+    <Resource Include="crosshair\crosshair196.png" />
+    <Resource Include="crosshair\crosshair197.png" />
+    <Resource Include="crosshair\crosshair198.png" />
+    <Resource Include="crosshair\crosshair199.png" />
+    <Resource Include="crosshair\crosshair2.png" />
+    <Resource Include="crosshair\crosshair20.png" />
+    <Resource Include="crosshair\crosshair200.png" />
+    <Resource Include="crosshair\crosshair21.png" />
+    <Resource Include="crosshair\crosshair22.png" />
+    <Resource Include="crosshair\crosshair23.png" />
+    <Resource Include="crosshair\crosshair24.png" />
+    <Resource Include="crosshair\crosshair25.png" />
+    <Resource Include="crosshair\crosshair26.png" />
+    <Resource Include="crosshair\crosshair27.png" />
+    <Resource Include="crosshair\crosshair28.png" />
+    <Resource Include="crosshair\crosshair29.png" />
+    <Resource Include="crosshair\crosshair3.png" />
+    <Resource Include="crosshair\crosshair30.png" />
+    <Resource Include="crosshair\crosshair31.png" />
+    <Resource Include="crosshair\crosshair32.png" />
+    <Resource Include="crosshair\crosshair33.png" />
+    <Resource Include="crosshair\crosshair34.png" />
+    <Resource Include="crosshair\crosshair35.png" />
+    <Resource Include="crosshair\crosshair36.png" />
+    <Resource Include="crosshair\crosshair37.png" />
+    <Resource Include="crosshair\crosshair38.png" />
+    <Resource Include="crosshair\crosshair39.png" />
+    <Resource Include="crosshair\crosshair4.png" />
+    <Resource Include="crosshair\crosshair40.png" />
+    <Resource Include="crosshair\crosshair41.png" />
+    <Resource Include="crosshair\crosshair42.png" />
+    <Resource Include="crosshair\crosshair43.png" />
+    <Resource Include="crosshair\crosshair44.png" />
+    <Resource Include="crosshair\crosshair45.png" />
+    <Resource Include="crosshair\crosshair46.png" />
+    <Resource Include="crosshair\crosshair47.png" />
+    <Resource Include="crosshair\crosshair48.png" />
+    <Resource Include="crosshair\crosshair49.png" />
+    <Resource Include="crosshair\crosshair5.png" />
+    <Resource Include="crosshair\crosshair50.png" />
+    <Resource Include="crosshair\crosshair51.png" />
+    <Resource Include="crosshair\crosshair52.png" />
+    <Resource Include="crosshair\crosshair53.png" />
+    <Resource Include="crosshair\crosshair54.png" />
+    <Resource Include="crosshair\crosshair55.png" />
+    <Resource Include="crosshair\crosshair56.png" />
+    <Resource Include="crosshair\crosshair57.png" />
+    <Resource Include="crosshair\crosshair58.png" />
+    <Resource Include="crosshair\crosshair59.png" />
+    <Resource Include="crosshair\crosshair6.png" />
+    <Resource Include="crosshair\crosshair60.png" />
+    <Resource Include="crosshair\crosshair61.png" />
+    <Resource Include="crosshair\crosshair62.png" />
+    <Resource Include="crosshair\crosshair63.png" />
+    <Resource Include="crosshair\crosshair64.png" />
+    <Resource Include="crosshair\crosshair65.png" />
+    <Resource Include="crosshair\crosshair66.png" />
+    <Resource Include="crosshair\crosshair67.png" />
+    <Resource Include="crosshair\crosshair68.png" />
+    <Resource Include="crosshair\crosshair69.png" />
+    <Resource Include="crosshair\crosshair7.png" />
+    <Resource Include="crosshair\crosshair70.png" />
+    <Resource Include="crosshair\crosshair71.png" />
+    <Resource Include="crosshair\crosshair72.png" />
+    <Resource Include="crosshair\crosshair73.png" />
+    <Resource Include="crosshair\crosshair74.png" />
+    <Resource Include="crosshair\crosshair75.png" />
+    <Resource Include="crosshair\crosshair76.png" />
+    <Resource Include="crosshair\crosshair77.png" />
+    <Resource Include="crosshair\crosshair78.png" />
+    <Resource Include="crosshair\crosshair79.png" />
+    <Resource Include="crosshair\crosshair8.png" />
+    <Resource Include="crosshair\crosshair80.png" />
+    <Resource Include="crosshair\crosshair81.png" />
+    <Resource Include="crosshair\crosshair82.png" />
+    <Resource Include="crosshair\crosshair83.png" />
+    <Resource Include="crosshair\crosshair84.png" />
+    <Resource Include="crosshair\crosshair85.png" />
+    <Resource Include="crosshair\crosshair86.png" />
+    <Resource Include="crosshair\crosshair87.png" />
+    <Resource Include="crosshair\crosshair88.png" />
+    <Resource Include="crosshair\crosshair89.png" />
+    <Resource Include="crosshair\crosshair9.png" />
+    <Resource Include="crosshair\crosshair90.png" />
+    <Resource Include="crosshair\crosshair91.png" />
+    <Resource Include="crosshair\crosshair92.png" />
+    <Resource Include="crosshair\crosshair93.png" />
+    <Resource Include="crosshair\crosshair94.png" />
+    <Resource Include="crosshair\crosshair95.png" />
+    <Resource Include="crosshair\crosshair96.png" />
+    <Resource Include="crosshair\crosshair97.png" />
+    <Resource Include="crosshair\crosshair98.png" />
+    <Resource Include="crosshair\crosshair99.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

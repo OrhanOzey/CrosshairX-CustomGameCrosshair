@@ -1,0 +1,17 @@
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair.csprojAssemblyReference.cache
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\MainWindow.g.cs
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\App.g.cs
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair_MarkupCompile.cache
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair_MarkupCompile.lref
+C:\Users\orhan\source\repos\Crosshair\Crosshair\bin\Debug\Crosshair.exe.config
+C:\Users\orhan\source\repos\Crosshair\Crosshair\bin\Debug\Crosshair.exe
+C:\Users\orhan\source\repos\Crosshair\Crosshair\bin\Debug\Crosshair.pdb
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\MainWindow.baml
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair.g.resources
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair.Properties.Resources.resources
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair.csproj.GenerateResource.cache
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair.csproj.CoreCompileInputs.cache
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair.exe
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\Crosshair.pdb
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\imlec.g.cs
+C:\Users\orhan\source\repos\Crosshair\Crosshair\obj\Debug\imlec.baml

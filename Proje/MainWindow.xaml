@@ -1,0 +1,34 @@
+﻿<Window x:Class="Crosshair.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Crosshair"
+        mc:Ignorable="d"
+        Title="CrosshairX Ayarlar" Height="500" Width="300" WindowStartupLocation="Manual" Topmost="True" ResizeMode="CanMinimize" Closed="Window_Closed" Icon="kaynak/clogo.ico">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="#FF001625" Offset="1"/>
+            <GradientStop Color="#FF004B80"/>
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid>
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left">
+            <TextBlock x:Name="lBaslik" Margin="10,0,0,0" Text="Crosshair Listesi" Foreground="White" FontSize="14" />
+        </StackPanel>
+        
+        <StackPanel Margin="0,8,15,0" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
+            <Image  Source="bayrak/turkish.jpg" Margin="0,0,5,0" Width="25" MouseDown="Image_MouseDown_1"/>
+            <Image  Source="bayrak/english.jpg" Width="25" MouseDown="Image_MouseDown"/>
+        </StackPanel>
+        
+        <StackPanel  Orientation="Vertical"  Margin="5,30,5,0" >
+            <ListBox HorizontalContentAlignment="Center" x:Name="lbCrosshair" Height="250" Width="270" Background="#FF151515" BorderBrush="{x:Null}" SelectionChanged="LbCrosshair_SelectionChanged" />
+            <TextBlock x:Name="lBoyut" Margin="5,10,0,0" Text="Crosshair Boyutu" Foreground="White" FontSize="14"/>
+            <Slider x:Name="rsSlider" Value="1" Margin="5,10,5,0" ValueChanged="Slider_ValueChanged"/>
+            <TextBlock x:Name="lNot" Margin="5,15,0,0" Text="Bilgi : Eğer Oyun içerisinde Crosshair gözükmüyor ise Oyununuzun Ekran Görüntüsü Ayarları Borderless/Çerçevesiz olduğundan emin olun."  TextWrapping="Wrap" Foreground="#66FFFFFF" FontSize="14"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
