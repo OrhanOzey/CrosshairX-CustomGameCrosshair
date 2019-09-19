@@ -7,6 +7,7 @@ Kullanmak için Setup Dosyasını Basit bir şekilde kurarak oyunlarda crosshair
 CrosshairX-Setup.msi Adlı setup dosyasını indirirerek kurulum gerçekleştirebilirsiniz
 
 ### Nasıl Çalışıyor ?
+![CrosshairX Banner](https://eksiup.com/images/17/98/dc137305pqdo.png)
 Basit mantığa dayalı bir şekilde çalışmaktadır, C# Windows Presentation Foundation (WPF) Üzerinde oluşturulmuştur,
 Temelinde 2 Adet Pencere vardır, Pencerelerden birisi "Crosshair" diğeri ise "Ayarlar" Penceresidir
 "Crosshair" Penceresinin arkası transparan'dır, ve ekran sıra önceliği olarak hep en önde durmaktadır. bkz:(Topmost)
