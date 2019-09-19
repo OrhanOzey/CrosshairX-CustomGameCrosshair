@@ -3,6 +3,9 @@
 
 Kullanmak için Setup Dosyasını Basit bir şekilde kurarak oyunlarda crosshair değişikliği yapabilirsiniz.
 
+### Kurulum 
+CrosshairX-Setup.msi Adlı setup dosyasını indirirerek kurulum gerçekleştirebilirsiniz
+
 ### Nasıl Çalışıyor ?
 Basit mantığa dayalı bir şekilde çalışmaktadır, C# Windows Presentation Foundation (WPF) Üzerinde oluşturulmuştur,
 Temelinde 2 Adet Pencere vardır, Pencerelerden birisi "Crosshair" diğeri ise "Ayarlar" Penceresidir
